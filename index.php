@@ -31,8 +31,8 @@
                               </nav>
                          </div>
                          <?php 
-                         $dsn = 'mysql:host=localhost;dbname=xtorz;port=3306;charset=utf8';
-                         $pdo = new PDO($dsn, 'xtorz' , 'mathy');
+                         $dsn = 'mysql:host=localhost;dbname=arnaudw_BDD1;port=3306;charset=utf8';
+                         $pdo = new PDO($dsn, 'arnaudw' , '22mlh2YiC3');
                          $query = $pdo->query("SELECT * FROM `iad`");
                          $resultat = $query->fetchAll();
                          print("<table border=\"5\">");
