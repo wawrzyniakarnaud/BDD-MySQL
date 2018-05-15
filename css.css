@@ -1,0 +1,26 @@
+body{
+     margin-left: 50px;
+     margin-right: 50px;
+     border-right: solid 3px black;
+     border-left: solid 3px black;
+     background-color: dimgrey;
+     font-family: monospace,sans-serif,serif;
+
+}
+table{
+     width: 90;
+}
+td{
+     color: black;
+     font-weight: 600;
+}
+.nav-wrapper{
+     background-color: black;
+}
+li a{ 
+     color: white;
+     font-weight: 800;
+}
+li a:hover{
+     text-shadow: 1px 1px 1px white;
+}
